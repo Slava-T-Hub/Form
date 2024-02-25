@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#myForm {
+  background: gainsboro;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+#name,
+#userName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#name > input {
+  width: 48%;
+  height: 30px;
+}
+
+#userName > input,
+#aPasword > input,
+#yourPasword > input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#userName > input {
+  text-align: right;
+}
+
+#birthdey {
+  display: flex;
+  justify-content: space-between;
+}
+
+#birthdey select,
+input {
+  width: 30%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.gender select {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.mobilePhone input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 1.2rem;
+}

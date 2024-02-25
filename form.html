@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="" method="get" id="myForm">
+      <label>Name</label>
+      <br />
+      <div id="name">
+        <input type="text" placeholder="  First" />
+        <input type="text" placeholder="  Last" />
+      </div>
+      <label>Choose your username</label>
+      <br />
+
+      <div id="userName">
+        <input type="email" placeholder="@gmail.com" />
+      </div>
+      <label>Create a pasword</label>
+      <br />
+
+      <div id="aPasword">
+        <input type="password" />
+      </div>
+      <label>Confirm your pasword</label>
+      <br />
+
+      <div id="yourPasword">
+        <input type="password" />
+      </div>
+      <div id="useData">
+        <label>Birthdey</label>
+        <br />
+        <div id="birthdey">
+          <select name="month" id="">
+            <option disabled selected>Month</option>
+            <option value="">Jan</option>
+            <option value="">Feb</option>
+            <option value="">Mar</option>
+            <option value="">Apr</option>
+            <option value="">May</option>
+            <option value="">Jun</option>
+            <option value="">Jul</option>
+            <option value="">Aug</option>
+            <option value="">Sep</option>
+            <option value="">Oct</option>
+            <option value="">Nov</option>
+            <option value="">Dec</option>
+          </select>
+          <input
+            type="number"
+            min="1923"
+            max="2023"
+            step="1"
+            value=""
+            placeholder="Day"
+          />
+          <input
+            type="number"
+            min="1"
+            max="31"
+            step="1"
+            value=""
+            placeholder="Year"
+          />
+        </div>
+      </div>
+      <div id="genderSelect">
+        <label>Gender</label>
+        <div class="gender">
+          <select name="month" id="">
+            <option disabled selected>I am...</option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+          </select>
+        </div>
+      </div>
+      <div id="phoneNamber">
+        <label>Mobile phone</label>
+        <div class="mobilePhone">
+          <input
+            id="telId"
+            name="telNo"
+            type="tel"
+            required
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            value="+972"
+          />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
